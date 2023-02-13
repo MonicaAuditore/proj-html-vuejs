@@ -1,10 +1,9 @@
 header {
-  background-color: brown;
   height: 950px;
 }
 .nav {
   width: 100%;
-  position: fixed;
+  position: absolute;
   z-index: 200;
 }
 .containerOne {
@@ -73,12 +72,11 @@ li:hover {
 .intro {
   position: absolute;
   left: 5%;
-  bottom: 65%;
+  bottom: 34%;
 }
 
 .titleSmall {
   display: flex;
-  justify-content: center;
   align-items: center;
 }
 
@@ -92,4 +90,14 @@ li:hover {
 
 h6 {
   color: $white;
+}
+
+.titleBig {
+  width: 55%;
+}
+
+h1 {
+  color: $white;
+  font-size: 123px;
+  line-height: 111px;
 }

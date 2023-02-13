@@ -35,6 +35,9 @@ export default {
             <h6>ALWATS THE BEST WAY YOU NEED IT</h6>
           </div>
         </div>
+        <div class="titleBig">
+          <h1>THE BEST BUSINESS CONSULTING</h1>
+        </div>
       </div>
       <div class="bg"></div>
       <div class="bg-img"></div>
