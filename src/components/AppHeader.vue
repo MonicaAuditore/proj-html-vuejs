@@ -27,18 +27,26 @@ export default {
         </div>
       </div>
     </nav>
+    <div class="mainBg">
+      <div class="bg"></div>
+      <div class="bg-img"></div>
+    </div>
   </header>
 </template>
 
 <style lang="scss" scoped>
+header {
+  background-color: brown;
+  height: 950px;
+}
 .nav {
   width: 100%;
-  background-color: brown;
+  position: fixed;
+  z-index: 200;
 }
 .containerOne {
-  width: 80%;
+  width: 90%;
   margin: 0 auto;
-  background-color: aquamarine;
   height: 50px;
 }
 
@@ -55,6 +63,30 @@ export default {
 }
 
 li {
-  padding: 0px 5px;
+  padding: 0px 20px;
+  color: #fff;
+}
+
+.bg {
+  background-color: blue;
+  width: 40%;
+  height: 100%;
+}
+
+.bg-img {
+  width: 60%;
+  height: 100%;
+  background-image: url(../images/portrait-of-young-architect-woman-on-meeting-KFZCE3A.jpg);
+}
+
+.bg-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.mainBg {
+  display: flex;
+  height: 100%;
 }
 </style>
