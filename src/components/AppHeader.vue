@@ -38,6 +38,10 @@ export default {
         <div class="titleBig">
           <h1>THE BEST BUSINESS CONSULTING</h1>
         </div>
+        <div class="introLinks">
+          <button><h6>READ MORE</h6></button>
+          <a class="play" href="#">x</a>
+        </div>
       </div>
       <div class="bg"></div>
       <div class="bg-img"></div>
