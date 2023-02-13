@@ -38,4 +38,6 @@ export default {
   <AppFooter />
 </template>
 
-<style lang="scss"></style>
+<style lang="scss">
+@use "./styles/main.scss";
+</style>
