@@ -3,6 +3,7 @@ import AppHeader from "./components/AppHeader.vue";
 import SectionServices from "./components/SectionServices.vue";
 import SectionAbout from "./components/SectionAbout.vue";
 import SectionProjects from "./components/SectionProjects.vue";
+
 import SectionTestimonialsBlog from "./components/SectionTestimonialsBlog.vue";
 
 import SectionCalltoaction from "./components/SectionCalltoaction.vue";
@@ -16,6 +17,7 @@ export default {
     SectionServices,
     SectionAbout,
     SectionProjects,
+
     SectionTestimonialsBlog,
 
     SectionCalltoaction,
