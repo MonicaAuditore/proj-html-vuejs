@@ -1,6 +1,6 @@
 <script>
 export default {
-  name: "AppHeader",
+  name: "SectionProjects",
   data() {
     return {
       test: "Hello",
@@ -10,7 +10,7 @@ export default {
 </script>
 
 <template>
-  <p>Header</p>
+  <p>SectionProjects</p>
 </template>
 
 <style lang="scss" scoped></style>
