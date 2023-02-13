@@ -17,6 +17,7 @@ export default {
     SectionAbout,
     SectionProjects,
     SectionTestimonialsBlog,
+
     SectionCalltoaction,
     AppFooter,
   },
@@ -28,7 +29,9 @@ export default {
   <SectionServices />
   <SectionAbout />
   <SectionProjects />
+
   <SectionTestimonialsBlog />
+
   <SectionCalltoaction />
   <AppFooter />
 </template>

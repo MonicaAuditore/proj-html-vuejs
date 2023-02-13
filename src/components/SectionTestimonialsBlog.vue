@@ -3,11 +3,12 @@ import AppTestimonials from "./AppTestimonials.vue";
 import AppBlog from "./AppBlog.vue";
 
 export default {
-  name: "SectionTestimonialsBlog",
-  componenets: {
+  name: "AppTestimonialsBlog",
+  components: {
     AppTestimonials,
     AppBlog,
   },
+
   data() {
     return {
       test: "Hello",
@@ -17,7 +18,7 @@ export default {
 </script>
 
 <template>
-  <p>SectionTestimonialsBlog</p>
+  <p>AppTestimonialsBlog</p>
   <AppTestimonials />
   <AppBlog />
 </template>
