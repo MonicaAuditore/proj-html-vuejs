@@ -40,7 +40,7 @@ export default {
         </div>
         <div class="introLinks">
           <button><h6>READ MORE</h6></button>
-          <a class="play" href="#">x</a>
+          <a class="play" href="#"><i class="fa-solid fa-play"></i></a>
         </div>
       </div>
       <div class="bg"></div>
