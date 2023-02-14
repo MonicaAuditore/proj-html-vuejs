@@ -1,12 +1,31 @@
 @import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap");
 
+html {
+  font-size: 62.5%;
+  font-family: "Open Sans", sans-serif;
+}
+
 h1 {
   font-family: "Righteous", cursive;
-  font-size: 115px;
+  font-size: 11.5rem;
+}
+
+h2 {
+  font-family: "Righteous", cursive;
+  font-size: 3rem;
+}
+
+h5 {
+  font-family: "Righteous", cursive;
 }
 
 h6 {
   font-family: "Open Sans", sans-serif;
   letter-spacing: 4px;
+  font-size: 1.4rem;
+}
+
+p {
+  font-size: 2rem;
 }

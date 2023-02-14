@@ -21,7 +21,9 @@ export default {
           <div class="logo"><img src="../images/logotype.png" /></div>
           <div class="menu">
             <ul>
-              <li v-for="link in store.links">{{ link.label }}</li>
+              <li v-for="link in store.links">
+                {{ link.label }}
+              </li>
             </ul>
           </div>
         </div>

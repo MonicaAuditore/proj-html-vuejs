@@ -22,6 +22,7 @@ header {
 
 .logo {
   width: 145px;
+  cursor: pointer;
 
   img {
     width: 100%;
@@ -37,11 +38,13 @@ header {
   li {
     margin: 0px 20px;
     color: $white;
-
-    :hover {
-      box-shadow: inset 0em 4px $white;
-    }
+    font-size: 1.4rem;
+    cursor: pointer;
   }
+}
+
+li:hover {
+  box-shadow: inset 0em 4px $white;
 }
 
 .mainBg {
@@ -67,11 +70,7 @@ header {
 }
 
 .line {
-  width: 50px;
-  height: 2px;
-  background-color: $green-bg-one;
-  display: block;
-  margin-right: 30px;
+  @include linea;
 }
 
 .titleBig {
@@ -80,7 +79,7 @@ header {
 
 h1 {
   color: $white;
-  line-height: 111px;
+  line-height: 11.1rem;
 }
 
 .introLinks {
@@ -100,12 +99,13 @@ button {
 
 a {
   text-decoration: none;
+  color: $white;
 }
 
 .play {
   margin-left: 62px;
-  padding: 17px 23px;
-  border: 2px solid #fff;
+  padding: 19px 23px;
+  border: 2px solid $white;
   border-radius: 50px;
 
   i {
