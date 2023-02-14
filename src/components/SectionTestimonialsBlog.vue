@@ -18,9 +18,10 @@ export default {
 </script>
 
 <template>
-  <p>AppTestimonialsBlog</p>
-  <AppTestimonials />
-  <AppBlog />
+  <div class="mainTestimonialsBlog">
+    <AppTestimonials />
+    <AppBlog />
+  </div>
 </template>
 
 <style lang="scss" scoped></style>

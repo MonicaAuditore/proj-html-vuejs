@@ -57,33 +57,4 @@ export default {
   </div>
 </template>
 
-<style lang="scss" scoped>
-.aboutTextCtaTitle {
-  margin-left: 358px;
-  width: 30%;
-}
-
-.aboutTextCtaContent {
-  width: 35%;
-}
-.aboutTextCta {
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-  gap: 95px;
-}
-
-.aboutTextCtaButton {
-  align-self: flex-end;
-  width: 33%;
-  text-align: right;
-}
-
-button {
-  background-color: red;
-
-  h6 {
-    color: #fff;
-  }
-}
-</style>
+<style lang="scss" scoped></style>

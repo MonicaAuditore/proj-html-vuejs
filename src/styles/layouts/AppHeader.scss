@@ -88,9 +88,17 @@ button {
   padding: 25px 57px;
   border: none;
 
-  h6 {
+  &h6 {
     color: $black;
     margin-bottom: 0;
+  }
+
+  &:hover {
+    background-color: red;
+  }
+
+  &:hover h6 {
+    color: $white;
   }
 }
 
