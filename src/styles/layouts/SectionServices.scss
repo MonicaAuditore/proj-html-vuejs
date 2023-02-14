@@ -1,0 +1,58 @@
+.mainServices {
+  padding: 100px 0px;
+}
+
+.containerTwo {
+  width: 63%;
+  margin: 0 auto;
+}
+
+.services {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 100px;
+}
+
+.secondaryTitle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 358px;
+  padding-bottom: 100px;
+
+  h2 {
+    width: 60%;
+    padding-right: 40px;
+  }
+
+  .line {
+    height: 2px;
+    display: block;
+    margin-right: 30px;
+    width: 100%;
+  }
+}
+
+.service {
+  display: flex;
+
+  width: 40%;
+}
+
+.iconService {
+  background-color: $red-bg-two;
+  height: 60px;
+  width: 190px;
+  border-radius: 50px;
+  position: relative;
+  margin-right: 50px;
+
+  i {
+    position: absolute;
+    top: 30%;
+    left: 30%;
+    color: white;
+    font-size: 25px;
+  }
+}
