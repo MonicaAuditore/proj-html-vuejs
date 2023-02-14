@@ -10,6 +10,7 @@ export default {
 </script>
 
 <template>
+  <div id="projects" class="mainProjects"></div>
   <p>SectionProjects</p>
 </template>
 

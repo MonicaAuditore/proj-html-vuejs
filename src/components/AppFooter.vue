@@ -12,7 +12,7 @@ export default {
 </script>
 
 <template>
-  <div class="mainFooter">
+  <div id="contact" class="mainFooter">
     <div class="containerOne">
       <div class="footerUp">
         <div class="footerLogo link">
@@ -21,7 +21,9 @@ export default {
         <div class="footerMenu">
           <ul>
             <li v-for="link in store.links">
-              {{ link.label }}
+              <a :href="link.url">
+                {{ link.label }}
+              </a>
             </li>
           </ul>
         </div>
@@ -40,7 +42,10 @@ export default {
         </div>
         <div class="footerDownRight">
           <span>Copyright © 2020 Phlox Consulting. All Right Reserved.</span>
-          <span class="arrpwUp link"><i class="fa-solid fa-arrow-up"></i></span>
+          <a href="#home"
+            ><span class="arrpwUp link"
+              ><i class="fa-solid fa-arrow-up"></i></span
+          ></a>
         </div>
       </div>
     </div>

@@ -14,7 +14,7 @@ export default {
 </script>
 
 <template>
-  <header>
+  <header id="home">
     <nav class="nav">
       <div class="containerOne">
         <div class="navElements">
@@ -22,7 +22,9 @@ export default {
           <div class="menu">
             <ul>
               <li v-for="link in store.links">
-                {{ link.label }}
+                <a :href="link.url">
+                  {{ link.label }}
+                </a>
               </li>
             </ul>
           </div>

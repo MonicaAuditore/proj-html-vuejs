@@ -26,7 +26,7 @@ export default {
 </script>
 
 <template>
-  <div class="mainBlog">
+  <div id="blog" class="mainBlog">
     <div class="containerOne">
       <div class="titleSmall">
         <div class="line"></div>

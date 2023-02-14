@@ -21,7 +21,7 @@ export default {
 </script>
 
 <template>
-  <div class="mainAbout">
+  <div id="about" class="mainAbout">
     <div class="about">
       <div class="aboutImg">
         <img
