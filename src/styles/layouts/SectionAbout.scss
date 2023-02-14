@@ -23,15 +23,18 @@
 .aboutText {
   width: 45%;
   height: 900px;
-  padding: 250px 115px;
+  padding: 290px 115px;
 
   p {
     color: $white;
   }
+}
 
+.aboutTextTitle {
   h2 {
     color: $white;
     padding: 20px 0px;
+    text-align: left;
   }
 }
 
@@ -66,4 +69,8 @@ button {
   h6 {
     color: $white;
   }
+}
+
+.line {
+  @include linea;
 }

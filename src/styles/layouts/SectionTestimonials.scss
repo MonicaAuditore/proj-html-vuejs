@@ -1,0 +1,45 @@
+.mainTestimonials {
+  padding: 100px 0px;
+}
+.containerOne {
+  width: 82%;
+  margin: 0 auto;
+}
+
+.titleSmall {
+  text-align: right;
+}
+
+h2 {
+  color: $white;
+  padding: 20px 0px;
+  text-align: right;
+}
+
+.allTestimonials {
+  width: 90%;
+  margin-left: 10%;
+  background-color: $white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.line {
+  margin-right: 0px;
+  float: right;
+}
+
+.titleSmallSpecial {
+  text-align: center;
+  color: $white;
+}
+
+h4 {
+  padding-top: 20px;
+  font-weight: bold;
+}
+
+h6 {
+  letter-spacing: 0;
+}

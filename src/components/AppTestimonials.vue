@@ -8,19 +8,21 @@ export default {
           desc: "When, while lovely valley teems with vapour around meand eridian sun strikes the upper impenetrable foliage of my trees, and but a thousand unknow plants are noticed when i hear the buzz of the little",
           autore: "Vera Duncan",
           azienda: "Amazon Inc.",
-          img: "../images/oliver-ragfelt-488196-2.jpg",
+          image: "../images/oliver-ragfelt-488196-2.jpg",
         },
 
         {
           desc: "When, while lovely valley teems with vapour around meand eridian sun strikes the upper impenetrable foliage of my trees, and but a thousand unknow plants are noticed when i hear the buzz of the little",
           autore: "Vera Duncan",
           azienda: "Amazon Inc.",
+          image: "../images/oliver-ragfelt-488196-unsplash.jpg",
         },
 
         {
           desc: "When, while lovely valley teems with vapour around meand eridian sun strikes the upper impenetrable foliage of my trees, and but a thousand unknow plants are noticed when i hear the buzz of the little",
           autore: "Vera Duncan",
           azienda: "Amazon Inc.",
+          image: "../images/12679.jpg",
         },
       ],
     };
@@ -52,60 +54,14 @@ export default {
 </template>
 
 <style lang="scss" scoped>
-.mainTestimonials {
-  padding: 100px 0px;
-}
-.containerOne {
-  width: 82%;
-  margin: 0 auto;
-}
-
-.titleSmall {
-  text-align: right;
-}
-
-h2 {
-  color: #fff;
-  padding: 20px 0px;
-  text-align: right;
-}
-
-.allTestimonials {
-  width: 90%;
-  margin-left: 10%;
-  background-color: #ffffff;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-}
-
-.line {
-  margin-right: 0px;
-  float: right;
-}
-
-.titleSmallSpecial {
-  text-align: center;
-  color: white;
-}
-
 .testimonial {
   width: 20%;
   padding: 30px;
 
   &:hover {
-    background-image: url(../images/oliver-ragfelt-488196-2.jpg);
+    background-image: url("../images/oliver-ragfelt-488196-2.jpg");
     background-position: center;
-    color: #fff;
+    color: white;
   }
-}
-
-h4 {
-  padding-top: 20px;
-  font-weight: bold;
-}
-
-h6 {
-  letter-spacing: 0;
 }
 </style>
