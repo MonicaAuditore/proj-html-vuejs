@@ -1,0 +1,64 @@
+.mainBlog {
+  padding: 100px 0px 270px 0px;
+}
+
+.blogTitleButton {
+  display: flex;
+  justify-content: space-between;
+
+  & button {
+    background-color: $green-bg-one;
+
+    & h6 {
+      color: $black;
+    }
+  }
+}
+
+.blogPosts {
+  display: flex;
+  gap: 20px;
+}
+
+.post {
+  width: 50%;
+  height: 500px;
+  position: relative;
+}
+
+.postImage {
+  width: 100%;
+  height: 100%;
+
+  & img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+}
+
+.postContent {
+  position: absolute;
+  background-color: $white;
+  width: 80%;
+  right: 0;
+  top: 65%;
+  padding: 53px 72px;
+
+  & h3 {
+    padding: 20px 0px;
+  }
+}
+
+.data {
+  padding-right: 10px;
+}
+
+.autore,
+.data {
+  color: $red-text-one;
+}
+
+.postContentInfo {
+  width: 80%;
+}
