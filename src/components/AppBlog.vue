@@ -5,7 +5,7 @@ export default {
     return {
       posts: [
         {
-          img: "../images/startup-business-people-and-strategy-board-PAJ3P9K-1390x1042.jpg",
+          img: "startup-business-people-and-strategy-board-PAJ3P9K-1390x1042",
           data: "july 4, 2019",
           autore: "by paul",
           titolo: "Canadian Consulting Firm acquired by UK Giant",
@@ -13,7 +13,7 @@ export default {
         },
 
         {
-          img: "../images/business-people-working-together-on-project-and-5FHSKBL-1390.jpg",
+          img: "business-people-working-together-on-project-and-5FHSKBL-1390",
           data: "july 4, 2019",
           autore: "by paul",
           titolo: "Canadian Consulting Firm acquired by UK Giant",
@@ -42,9 +42,8 @@ export default {
       </div>
       <div class="blogPosts">
         <div class="post" v-for="post in posts">
-          <div class="postImage">
-            <img :src="post.img" />
-          </div>
+          <img :src="'src/images/' + post.img + '.jpg'" />
+
           <div class="postContent">
             <div class="postContentInfo">
               <span class="data">{{ post.data }}</span>

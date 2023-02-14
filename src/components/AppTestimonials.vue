@@ -8,21 +8,21 @@ export default {
           desc: "When, while lovely valley teems with vapour around meand eridian sun strikes the upper impenetrable foliage of my trees, and but a thousand unknow plants are noticed when i hear the buzz of the little",
           autore: "Vera Duncan",
           azienda: "Amazon Inc.",
-          image: "../images/oliver-ragfelt-488196-2.jpg",
+          image: "oliver-ragfelt-488196-2",
         },
 
         {
           desc: "When, while lovely valley teems with vapour around meand eridian sun strikes the upper impenetrable foliage of my trees, and but a thousand unknow plants are noticed when i hear the buzz of the little",
           autore: "Vera Duncan",
           azienda: "Amazon Inc.",
-          image: "../images/oliver-ragfelt-488196-unsplash.jpg",
+          image: "oliver-ragfelt-488196-unsplash",
         },
 
         {
           desc: "When, while lovely valley teems with vapour around meand eridian sun strikes the upper impenetrable foliage of my trees, and but a thousand unknow plants are noticed when i hear the buzz of the little",
           autore: "Vera Duncan",
           azienda: "Amazon Inc.",
-          image: "../images/12679.jpg",
+          image: "12679",
         },
       ],
     };
@@ -43,6 +43,7 @@ export default {
     </div>
     <div class="allTestimonials">
       <div class="testimonial" v-for="testimonial in testimonials">
+        <img :src="'src/images/' + testimonial.image + '.jpg'" />
         <div class="text">
           <p>{{ testimonial.desc }}</p>
           <h4>{{ testimonial.autore }}</h4>
@@ -53,15 +54,4 @@ export default {
   </div>
 </template>
 
-<style lang="scss" scoped>
-.testimonial {
-  width: 20%;
-  padding: 30px;
-
-  &:hover {
-    background-image: url("../images/oliver-ragfelt-488196-2.jpg");
-    background-position: center;
-    color: white;
-  }
-}
-</style>
+<style lang="scss" scoped></style>
