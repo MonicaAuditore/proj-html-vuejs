@@ -1,6 +1,43 @@
 .mainAbout {
   background-color: $blue-bg-two;
-  height: 1080px;
+  padding-bottom: 100px;
   width: 100%;
   background-image: url("../../images/img-1.png");
+}
+
+.about {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.aboutImg {
+  width: 55%;
+  height: 900px;
+
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}
+
+.aboutText {
+  width: 45%;
+  height: 900px;
+  padding: 250px 115px;
+
+  p {
+    color: $white;
+  }
+
+  h2 {
+    color: $white;
+    padding: 20px 0px;
+  }
+}
+
+.aboutTextCta {
+  width: 90%;
+  height: 260px;
+  background-color: $green-bg-two;
 }

@@ -40,7 +40,7 @@ export default {
 <template>
   <div class="mainServices">
     <div class="secondaryTitle">
-      <h2>OUR CONSULTANTS CAN HELP YOU</h2>
+      <h3>OUR CONSULTANTS CAN HELP YOU</h3>
       <span class="line"></span>
     </div>
     <div class="containerTwo">
@@ -49,7 +49,7 @@ export default {
           <div class="iconService"><i class="fa-solid fa-chart-line"></i></div>
           <div class="textService">
             <div class="titleService">
-              <h2>{{ service.title }}</h2>
+              <h3>{{ service.title }}</h3>
             </div>
             <div class="descriptionService">
               <p>{{ service.description }}</p>
