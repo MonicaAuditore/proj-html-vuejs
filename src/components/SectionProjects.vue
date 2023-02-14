@@ -39,6 +39,10 @@ export default {
       </div>
       <div class="blogTitleButton">
         <h2>OUR EXPERT TRUSTED CONSULTANTS<br />HELP CLIENTS</h2>
+        <div class="arrowSlider">
+          <div class="arrowRight"><i class="fa-solid fa-arrow-left"></i></div>
+          <div class="arrowLeft"><i class="fa-solid fa-arrow-right"></i></div>
+        </div>
       </div>
 
       <div class="mainCarousell">
@@ -61,7 +65,7 @@ export default {
 <style lang="scss" scoped>
 .mainCarousell {
   display: flex;
-  gap: 20px;
+  justify-content: space-between;
 }
 .imgCarousel img {
   position: relative;
@@ -104,5 +108,31 @@ export default {
   top: 373px;
   left: 31px;
   opacity: 0;
+}
+
+.arrowSlider {
+  display: flex;
+  gap: 10px;
+  align-self: center;
+}
+
+.arrowSlider i {
+  color: white;
+}
+
+.arrowRight,
+.arrowLeft {
+  width: 40px;
+  height: 40px;
+  background-color: #4a4a4a;
+  position: relative;
+  cursor: pointer;
+}
+
+.arrowRight i,
+.arrowLeft i {
+  position: absolute;
+  top: 14px;
+  left: 16px;
 }
 </style>
