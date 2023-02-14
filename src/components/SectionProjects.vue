@@ -2,9 +2,7 @@
 export default {
   name: "SectionProjects",
   data() {
-    return {
-      test: "Hello",
-    };
+    return {};
   },
 };
 </script>

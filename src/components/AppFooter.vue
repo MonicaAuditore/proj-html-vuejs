@@ -6,6 +6,25 @@ export default {
   data() {
     return {
       store,
+
+      socials: [
+        {
+          url: "#",
+          label: "fa-instagram",
+        },
+        {
+          url: "#",
+          label: "fa-linkedin-in",
+        },
+        {
+          url: "#",
+          label: "fa-facebook-f",
+        },
+        {
+          url: "#",
+          label: "fa-twitter",
+        },
+      ],
     };
   },
 };
@@ -28,10 +47,13 @@ export default {
           </ul>
         </div>
         <div class="footerSocial">
-          <a href="#"><i class="fa-brands fa-instagram"></i></a>
-          <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
-          <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
-          <a href="#"><i class="fa-brands fa-twitter"></i></a>
+          <ul>
+            <li v-for="social in socials">
+              <a :href="social.url"
+                ><i :class="'fa-brands' + ' ' + social.label"></i
+              ></a>
+            </li>
+          </ul>
         </div>
       </div>
       <div class="footerDown">
