@@ -15,7 +15,7 @@ export default {
   <div class="mainFooter">
     <div class="containerOne">
       <div class="footerUp">
-        <div class="footerLogo">
+        <div class="footerLogo link">
           <img src="../images/logotype-2-139x23.png" />
         </div>
         <div class="footerMenu">
@@ -32,43 +32,19 @@ export default {
           <a href="#"><i class="fa-brands fa-twitter"></i></a>
         </div>
       </div>
+      <div class="footerDown">
+        <div class="footerDownLeft">
+          <span class="link"
+            >Terms of use<br />Privacy Environmental Policy</span
+          >
+        </div>
+        <div class="footerDownRight">
+          <span>Copyright © 2020 Phlox Consulting. All Right Reserved.</span>
+          <span class="arrpwUp link"><i class="fa-solid fa-arrow-up"></i></span>
+        </div>
+      </div>
     </div>
   </div>
 </template>
 
-<style lang="scss" scoped>
-.containerOne {
-  width: 82%;
-  margin: 0 auto;
-}
-.mainFooter {
-  background-color: #1f1e38;
-  height: 300px;
-}
-
-.footerUp {
-  display: flex;
-  justify-content: space-between;
-  border-bottom: 1px solid #a0a0a0;
-  padding: 70px 0px;
-}
-
-.footerSocial a {
-  padding: 0px 10px;
-  font-size: 20px;
-}
-
-.footerMenu ul {
-  display: flex;
-  justify-content: space-between;
-  list-style: none;
-  margin-bottom: 0;
-
-  li {
-    margin: 0px 20px;
-    color: #fff;
-    font-size: 1.4rem;
-    cursor: pointer;
-  }
-}
-</style>
+<style lang="scss" scoped></style>
