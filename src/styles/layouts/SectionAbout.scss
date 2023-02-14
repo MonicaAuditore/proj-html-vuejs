@@ -7,6 +7,11 @@
 .about {
   display: flex;
   flex-wrap: wrap;
+
+  & button {
+    background-color: red;
+    color: $white;
+  }
 }
 
 .aboutImg {

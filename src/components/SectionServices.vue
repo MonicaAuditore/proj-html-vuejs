@@ -38,7 +38,7 @@ export default {
 </script>
 
 <template>
-  <div class="mainServices">
+  <div id="services" class="mainServices">
     <div class="secondaryTitle">
       <h3>OUR CONSULTANTS CAN HELP YOU</h3>
       <span class="line"></span>

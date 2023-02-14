@@ -4,27 +4,27 @@ export const store = reactive({
   links: [
     {
       label: "HOME",
-      link: "#",
+      link: "#home",
     },
     {
       label: "ABOUT",
-      link: "#",
+      link: "#about",
     },
     {
       label: "PROJECTS",
-      link: "#",
+      link: "#projects",
     },
     {
       label: "SERVICES",
-      link: "#",
+      link: "#services",
     },
     {
       label: "BLOG",
-      link: "#",
+      link: "#blog",
     },
     {
       label: "CONTACT",
-      link: "#",
+      link: "#contact",
     },
   ],
 });
