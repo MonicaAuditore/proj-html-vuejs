@@ -96,8 +96,7 @@ export default {
           <i class="fa-solid fa-times rem" id="remove"></i>
         </div>
         <div class="btns">
-          <!-- 
-          <a href="#" class="btnx env"><i class="fa-regular fa-envelope"></i></a> 
+          <!-- <a href="#" class="btnx env"><i class="fa-regular fa-envelope"></i></a> 
           <a href="#" class="btnx ph"><i class="fa-solid fa-phone"></i></a>-->
           <a href="#" class="btnx wa"><i class="fa-brands fa-whatsapp"></i></a>
         </div>
@@ -107,80 +106,4 @@ export default {
   </div>
 </template>
 
-<style lang="scss" scoped>
-.fabs {
-  position: fixed;
-  right: 33px;
-  bottom: 20px;
-}
-
-.action {
-  background: #527ceb;
-  height: 60px;
-  width: 60px;
-  border-radius: 60px;
-  transition: background-color 0.4s;
-}
-
-.action i {
-  position: absolute;
-  color: #fff;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
-  font-size: 25px;
-  cursor: pointer;
-}
-
-.action:hover {
-  background-color: #6f90e5;
-}
-
-.btns {
-  position: absolute;
-  bottom: 0;
-  margin-bottom: 5px;
-  height: 35px;
-  width: 35px;
-  left: 50%;
-  transform: translateX(-50%);
-  transition: 0.3s ease-in-out;
-  z-index: -1;
-}
-
-.btns.open {
-  bottom: 60px;
-}
-
-.btnx {
-  position: absolute;
-  height: 35px;
-  width: 35px;
-  border-radius: 60px;
-}
-
-.wa {
-  background-color: #25d366;
-}
-
-.env {
-  background-color: #0099ff;
-}
-
-.ph {
-  background-color: #df2029;
-}
-
-.btnx i {
-  position: absolute;
-  font-size: 18px;
-  color: #fff;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
-}
-
-.rem {
-  display: none;
-}
-</style>
+<style lang="scss" scoped></style>
