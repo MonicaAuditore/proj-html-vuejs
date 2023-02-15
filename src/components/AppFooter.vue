@@ -34,10 +34,16 @@ export default {
       const remove = document.getElementById("remove");
       const btn = document.querySelector(".btns").querySelectorAll("a");
       Btns.classList.toggle("open");
-      btn.forEach((e, i) => {
-        bottom = 40 * i;
-        e.style.bottom = bottom + "px";
-      });
+      if (Btns.classList.contains("open")) {
+        btn.forEach((e, i) => {
+          bottom = 40 * i;
+          e.style.bottom = bottom + "px";
+        });
+      } else {
+        btn.forEach((e) => {
+          e.style.bottom = "0px";
+        });
+      }
     },
   },
 };
