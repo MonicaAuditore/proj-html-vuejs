@@ -21,7 +21,7 @@
     transition: all 0.5s;
   }
 
-  &:hover .imgCarousel {
+  &:hover {
     background-color: $red-bg-two;
     transition: all 0.5s;
   }
@@ -50,7 +50,7 @@
 .textCarousel {
   position: absolute;
   color: white;
-  top: 373px;
+  top: 403px;
   left: 31px;
   z-index: 600;
   display: none;
@@ -80,4 +80,22 @@
   position: absolute;
   top: 14px;
   left: 16px;
+}
+
+.btnArticle {
+  width: 80px;
+  height: 80px;
+  background-color: $blue-bg-two;
+  position: absolute;
+  right: -207px;
+  bottom: 0;
+  cursor: pointer;
+}
+
+.btnArticle i {
+  font-size: 40px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
 }

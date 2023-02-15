@@ -52,8 +52,13 @@ export default {
             <img :src="'src/images/' + singleSlide.img" />
           </div>
           <div class="textCarousel">
-            <h3>{{ singleSlide.title }}</h3>
-            <p>{{ singleSlide.categoria }}</p>
+            <div class="textInfo">
+              <h3>{{ singleSlide.title }}</h3>
+              <p>{{ singleSlide.categoria }}</p>
+            </div>
+            <div class="btnArticle">
+              <i class="fa-solid fa-plus"></i>
+            </div>
           </div>
         </div>
         <!-- fine carosello -->
