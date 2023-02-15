@@ -13,6 +13,10 @@
       color: $black;
     }
   }
+
+  & button {
+    cursor: pointer;
+  }
 }
 
 .blogPosts {
