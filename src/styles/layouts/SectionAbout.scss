@@ -28,17 +28,17 @@
 .aboutText {
   width: 45%;
   height: 900px;
-  padding: 290px 115px;
+  padding: 301px 115px;
 
-  p {
+  & p {
     color: $white;
   }
 }
 
 .aboutTextTitle {
-  h2 {
+  & h2 {
     color: $white;
-    padding: 20px 0px;
+    padding: 20px 0px 35px 0px;
     text-align: left;
   }
 }

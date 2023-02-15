@@ -10,9 +10,9 @@
   text-align: right;
 }
 
-h2 {
+.mainTestimonials h2 {
   color: $white;
-  padding: 20px 0px;
+  padding: 35px 0px 35px 0px;
   text-align: right;
 }
 
@@ -37,7 +37,7 @@ h2 {
 }
 
 .testimonial {
-  width: 25%;
+  width: 34%;
   padding: 50px 0px;
   background-position: center;
   position: relative;
@@ -64,14 +64,14 @@ h2 {
 }
 
 .text {
-  padding: 40px;
+  padding: 19px 76px 26px 76px;
 
   & h6 {
     letter-spacing: 0;
   }
 
   & h4 {
-    padding-top: 20px;
+    padding-top: 70px;
     font-weight: bold;
   }
 }

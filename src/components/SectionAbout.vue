@@ -62,6 +62,7 @@ export default {
   background-image: url("../images/img-1.png");
   background-repeat: no-repeat;
   background-position-x: right;
-  background-size: 598px;
+  background-size: 798px;
+  background-position-y: -424px;
 }
 </style>

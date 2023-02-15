@@ -1,5 +1,5 @@
 .mainServices {
-  padding: 100px 0px;
+  padding: 100px 0px 150px 0px;
 }
 
 .containerTwo {
@@ -21,22 +21,19 @@
   margin-left: 358px;
   padding-bottom: 100px;
 
-  h3 {
+  & h3 {
     width: 60%;
-    padding-right: 40px;
   }
 
-  .line {
-    height: 2px;
+  & .line {
+    height: 3px;
     display: block;
-    margin-right: 30px;
-    width: 100%;
+    width: 123%;
   }
 }
 
 .service {
   display: flex;
-
   width: 40%;
 }
 
@@ -48,11 +45,15 @@
   position: relative;
   margin-right: 50px;
 
-  i {
+  & i {
     position: absolute;
     top: 30%;
     left: 30%;
     color: white;
     font-size: 25px;
   }
+}
+
+.descriptionService p {
+  padding-top: 20px;
 }
