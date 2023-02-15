@@ -34,13 +34,13 @@ export default {
       const remove = document.getElementById("remove");
       const btn = document.querySelector(".btns").querySelectorAll("a");
       Btns.classList.toggle("open");
-      if (Btns.classList.contains("open")) {
-        btn.forEach((e, i) => {
-          bottom = 40 * i;
+      if (this.Btns.classList.contains("open")) {
+        this.btn.forEach((e, i) => {
+          bottom = 60 * i;
           e.style.bottom = bottom + "px";
         });
       } else {
-        btn.forEach((e) => {
+        this.btn.forEach((e) => {
           e.style.bottom = "0px";
         });
       }
@@ -96,9 +96,10 @@ export default {
           <i class="fa-solid fa-times rem" id="remove"></i>
         </div>
         <div class="btns">
-          <!-- <a href="#" class="btn wa"><i class="fa-brands fa-whatsapp"></i></a>
-          <a href="#" class="btn env"><i class="fa-regular fa-envelope"></i></a> -->
-          <a href="#" class="btn ph"><i class="fa-solid fa-phone"></i></a>
+          <!-- 
+          <a href="#" class="btnx env"><i class="fa-regular fa-envelope"></i></a> 
+          <a href="#" class="btnx ph"><i class="fa-solid fa-phone"></i></a>-->
+          <a href="#" class="btnx wa"><i class="fa-brands fa-whatsapp"></i></a>
         </div>
       </div>
       <!-- FloatingButton -->
@@ -151,7 +152,7 @@ export default {
   bottom: 60px;
 }
 
-.btn {
+.btnx {
   position: absolute;
   height: 35px;
   width: 35px;
@@ -170,7 +171,7 @@ export default {
   background-color: #df2029;
 }
 
-.btn i {
+.btnx i {
   position: absolute;
   font-size: 18px;
   color: #fff;
