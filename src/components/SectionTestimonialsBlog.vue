@@ -24,4 +24,12 @@ export default {
   </div>
 </template>
 
-<style lang="scss" scoped></style>
+<style lang="scss" scoped>
+.mainTestimonialsBlog {
+  background-image: url("../images/img-2.png");
+  background-position-y: center;
+  background-size: 921px;
+  background-repeat: no-repeat;
+  background-position-x: unset;
+}
+</style>

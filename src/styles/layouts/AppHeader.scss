@@ -74,7 +74,7 @@ header {
     }
 
     &:hover {
-      background-color: red;
+      background-color: $red-bg-two;
     }
   }
 }
@@ -112,7 +112,7 @@ a {
 .play {
   margin-left: 63px;
   padding: 24px 25px;
-  border: 2px solid #fff;
+  border: 2px solid $white;
   border-radius: 50px;
 
   i {

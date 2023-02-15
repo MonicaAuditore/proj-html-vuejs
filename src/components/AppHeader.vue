@@ -53,4 +53,14 @@ export default {
   </header>
 </template>
 
-<style lang="scss" scoped></style>
+<style lang="scss" scoped>
+// background section
+
+.bg {
+  background-image: url("../images/img-1.png");
+  background-repeat: no-repeat;
+  background-size: 800px;
+  background-position-x: 6px;
+  background-position-y: -838px;
+}
+</style>

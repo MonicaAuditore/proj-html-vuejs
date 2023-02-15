@@ -57,4 +57,11 @@ export default {
   </div>
 </template>
 
-<style lang="scss" scoped></style>
+<style lang="scss" scoped>
+.mainAbout {
+  background-image: url("../images/img-1.png");
+  background-repeat: no-repeat;
+  background-position-x: right;
+  background-size: 598px;
+}
+</style>
