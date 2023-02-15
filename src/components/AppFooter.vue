@@ -32,7 +32,12 @@ export default {
       const Btns = document.querySelector(".btns");
       const add = document.getElementById("add");
       const remove = document.getElementById("remove");
+      const btn = document.querySelector(".btns").querySelectorAll("a");
       Btns.classList.toggle("open");
+      btn.forEach((e, i) => {
+        bottom = 40 * i;
+        e.style.bottom = bottom + "px";
+      });
     },
   },
 };
@@ -85,8 +90,8 @@ export default {
           <i class="fa-solid fa-times rem" id="remove"></i>
         </div>
         <div class="btns">
-          <a href="#" class="btn wa"><i class="fa-brands fa-whatsapp"></i></a>
-          <a href="#" class="btn env"><i class="fa-regular fa-envelope"></i></a>
+          <!-- <a href="#" class="btn wa"><i class="fa-brands fa-whatsapp"></i></a>
+          <a href="#" class="btn env"><i class="fa-regular fa-envelope"></i></a> -->
           <a href="#" class="btn ph"><i class="fa-solid fa-phone"></i></a>
         </div>
       </div>
