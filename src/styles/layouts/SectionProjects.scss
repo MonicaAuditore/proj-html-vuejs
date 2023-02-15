@@ -6,3 +6,77 @@
 .blogTitleButton h2 {
   text-align: left;
 }
+
+.mainCarousell {
+  display: flex;
+  justify-content: space-between;
+}
+
+.allSlides {
+  position: relative;
+
+  &:hover .textCarousel {
+    display: block;
+    transition: all 0.5s;
+  }
+
+  &:hover .imgCarousel {
+    background-color: $red-bg-two;
+    transition: all 0.5s;
+  }
+}
+
+.imgCarousel {
+  width: 500px;
+  height: 500px;
+  opacity: 1;
+  transition: all 0.5s;
+  position: relative;
+
+  & img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: all 0.5s;
+
+    &:hover {
+      opacity: 0.3;
+      transition: all 0.5s;
+    }
+  }
+}
+
+.textCarousel {
+  position: absolute;
+  color: white;
+  top: 373px;
+  left: 31px;
+  z-index: 600;
+  display: none;
+}
+
+.arrowSlider {
+  display: flex;
+  gap: 10px;
+  align-self: center;
+
+  & i {
+    color: white;
+  }
+}
+
+.arrowRight,
+.arrowLeft {
+  width: 40px;
+  height: 40px;
+  background-color: $grey-bg-three;
+  position: relative;
+  cursor: pointer;
+}
+
+.arrowRight i,
+.arrowLeft i {
+  position: absolute;
+  top: 14px;
+  left: 16px;
+}
