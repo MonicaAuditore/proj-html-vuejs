@@ -17,6 +17,11 @@
   & button {
     cursor: pointer;
   }
+
+  @include respond(phone) {
+    flex-direction: column;
+    margin-bottom: 45px;
+  }
 }
 
 .blogPosts {

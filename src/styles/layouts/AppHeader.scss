@@ -19,6 +19,12 @@ header {
   justify-content: space-between;
   align-items: center;
   line-height: 80px;
+
+  @include respond(phone) {
+    line-height: 40px;
+    flex-direction: column;
+    margin: 17px 0px;
+  }
 }
 
 .logo {
@@ -77,6 +83,10 @@ header {
     &:hover {
       background-color: $red-bg-two;
     }
+  }
+
+  @include respond(phone) {
+    bottom: 15%;
   }
 }
 

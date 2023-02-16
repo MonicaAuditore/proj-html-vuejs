@@ -7,6 +7,12 @@
   margin: 0 auto;
 }
 
+.mainServices .containerTwo {
+  @include respond(tabPort) {
+    width: 81%;
+  }
+}
+
 .services {
   display: flex;
   flex-wrap: wrap;
@@ -15,6 +21,13 @@
 
   @include respond(tab768) {
     gap: 40px;
+  }
+
+  @include respond(phone) {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
   }
 }
 
@@ -39,24 +52,32 @@
     margin-left: 184px;
   }
 
+  @include respond(tabLand) {
+    margin-left: 211px;
+  }
+
   @include respond(tabPort) {
-    margin-left: 147px;
+    margin-left: 79px;
   }
 
   @include respond(phone) {
-    margin-left: 70px;
+    margin-left: 55px;
   }
 }
 
 .service {
   display: flex;
   width: 40%;
+
+  @include respond(phone) {
+    width: 100%;
+  }
 }
 
 .iconService {
   background-color: $red-bg-two;
-  height: 60px;
-  width: 155px;
+  max-height: 61px;
+  min-width: 61px;
   border-radius: 50px;
   position: relative;
   margin-right: 50px;
