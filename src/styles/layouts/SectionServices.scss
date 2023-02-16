@@ -12,6 +12,10 @@
   flex-wrap: wrap;
   justify-content: space-between;
   gap: 100px;
+
+  @include respond(tab768) {
+    gap: 40px;
+  }
 }
 
 .secondaryTitle {
@@ -29,6 +33,18 @@
     height: 3px;
     display: block;
     width: 123%;
+  }
+
+  @include respond(tab768) {
+    margin-left: 184px;
+  }
+
+  @include respond(tabPort) {
+    margin-left: 147px;
+  }
+
+  @include respond(phone) {
+    margin-left: 70px;
   }
 }
 

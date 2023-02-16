@@ -22,6 +22,12 @@
 .blogPosts {
   display: flex;
   gap: 20px;
+
+  @include respond(phone) {
+    gap: 250px;
+    flex-direction: column;
+    justify-content: space-between;
+  }
 }
 
 .post {
@@ -33,6 +39,10 @@
     height: 100%;
     width: 100%;
     object-fit: cover;
+  }
+
+  @include respond(phone) {
+    width: 100%;
   }
 }
 
@@ -46,6 +56,15 @@
 
   & h3 {
     padding: 20px 0px;
+  }
+
+  @include respond(tab768) {
+    padding: 24px;
+    width: 90%;
+  }
+
+  @include respond(tabPort) {
+    padding: 53px 31px;
   }
 }
 

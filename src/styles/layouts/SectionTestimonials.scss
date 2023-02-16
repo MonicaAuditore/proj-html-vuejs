@@ -24,6 +24,10 @@
   justify-content: space-around;
   align-items: center;
   padding-right: 100px;
+
+  @include respond(phone) {
+    flex-direction: column;
+  }
 }
 
 .line {
@@ -64,6 +68,10 @@
     height: 100%;
     object-fit: cover;
   }
+
+  @include respond(phone) {
+    width: 100%;
+  }
 }
 
 .testimonial:hover img {
@@ -80,5 +88,13 @@
   & h4 {
     padding-top: 70px;
     font-weight: bold;
+  }
+
+  @include respond(tab768) {
+    padding: 19px 0px 0px 41px;
+  }
+
+  @include respond(tabPort) {
+    padding: 19px 20px 26px 20px;
   }
 }

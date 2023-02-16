@@ -12,6 +12,10 @@
     background-color: $red-bg-two;
     color: $white;
   }
+
+  @include respond(phone) {
+    display: block;
+  }
 }
 
 .aboutImg {
@@ -23,6 +27,10 @@
     height: 100%;
     object-fit: cover;
   }
+
+  @include respond(phone) {
+    width: 100%;
+  }
 }
 
 .aboutText {
@@ -32,6 +40,20 @@
 
   & p {
     color: $white;
+  }
+
+  @include respond(tab768) {
+    padding: 167px 47px;
+  }
+
+  @include respond(tabPort) {
+    padding: 123px 77px;
+  }
+
+  @include respond(phone) {
+    width: 100%;
+    padding: 60px;
+    height: 620px;
   }
 }
 
@@ -43,6 +65,26 @@
   }
 }
 
+.aboutTextCtaTitle {
+  margin-left: 358px;
+  width: 25%;
+
+  @include respond(tab768) {
+    margin-left: 120px;
+    width: 25%;
+  }
+
+  @include respond(tabPort) {
+    margin-left: 0px;
+    width: 33%;
+  }
+
+  @include respond(tabLand) {
+    margin-left: 0px;
+    width: 30%;
+  }
+}
+
 .aboutTextCta {
   width: 90%;
   height: 260px;
@@ -51,11 +93,30 @@
   justify-content: flex-end;
   align-items: center;
   gap: 176px;
-}
 
-.aboutTextCtaTitle {
-  margin-left: 358px;
-  width: 25%;
+  @include respond(tab768) {
+    width: 90%;
+    height: 260px;
+    background-color: #35ffbf;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0px;
+    padding: 50px;
+  }
+
+  @include respond(tabPort) {
+    gap: 0px;
+  }
+
+  @include respond(tabLand) {
+    gap: 55px;
+  }
+
+  @include respond(phone) {
+    padding: 40px;
+    gap: 0px;
+  }
 }
 
 .aboutTextCtaContent {

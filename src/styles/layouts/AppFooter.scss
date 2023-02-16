@@ -4,7 +4,7 @@
 }
 .mainFooter {
   background-color: $blue-bg-two;
-  height: 300px;
+  padding: 40px 0px;
 }
 
 .footerUp {
@@ -12,6 +12,13 @@
   justify-content: space-between;
   border-bottom: 1px solid $grey-bg-two;
   padding: 70px 0px;
+
+  @include respond(tabPort) {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 42px;
+  }
 }
 
 .footerSocial ul {
