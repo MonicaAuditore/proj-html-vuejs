@@ -32,8 +32,15 @@
 }
 
 .titleSmallSpecial {
-  text-align: center;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
   color: $white;
+
+  & .titleSmallText {
+    margin-right: 2%;
+  }
 }
 
 .testimonial {
