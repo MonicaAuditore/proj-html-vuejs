@@ -29,18 +29,18 @@ export default {
   },
   methods: {
     toggleBtn() {
-      const Btns = document.querySelector(".btns");
+      const btns = document.querySelector(".btns");
       const add = document.getElementById("add");
       const remove = document.getElementById("remove");
       const btn = document.querySelector(".btns").querySelectorAll("a");
-      Btns.classList.toggle("open");
-      if (this.Btns.classList.contains("open")) {
-        this.btn.forEach((e, i) => {
+      btns.classList.toggle("open");
+      if (btns.classList.contains("open")) {
+        btn.forEach((e, i) => {
           bottom = 60 * i;
           e.style.bottom = bottom + "px";
         });
       } else {
-        this.btn.forEach((e) => {
+        btn.forEach((e) => {
           e.style.bottom = "0px";
         });
       }
@@ -96,8 +96,10 @@ export default {
           <i class="fa-solid fa-times rem" id="remove"></i>
         </div>
         <div class="btns">
-          <!-- <a href="#" class="btnx env"><i class="fa-regular fa-envelope"></i></a> 
-          <a href="#" class="btnx ph"><i class="fa-solid fa-phone"></i></a>-->
+          <a href="#" class="btnx env"
+            ><i class="fa-regular fa-envelope"></i
+          ></a>
+          <a href="#" class="btnx ph"><i class="fa-solid fa-phone"></i></a>
           <a href="#" class="btnx wa"><i class="fa-brands fa-whatsapp"></i></a>
         </div>
       </div>
